@@ -1,5 +1,9 @@
 *{
 	margin: 0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
 }
 body{
     font-size: 12px;
@@ -27,14 +31,14 @@ header{
 }
 .now_city_box{
 	padding-top: 10px;
-	font-size: 1rem;
+	font-size: .4rem;
 	color: #fff;
 	text-align: center;
 	line-height:1.6rem;
 }
 .now_air_box{
 	width: 3rem;
-	height: 2.6rem;
+	height: 1.6rem;
 	background-color:#f1ab62;
 	border-radius: .2rem;
 	margin-left: 27px;
@@ -58,14 +62,14 @@ header{
 }
 
 .now_weather{
-	font-size: 1rem;
+	font-size: .6rem;
 	color: white;
 	text-align: center;
 	font-weight: 400;
 	margin-top: .20rem;
 }
 .now_wet{
-	font-size: .6rem;
+	font-size: .38rem;
 	color: white;
 	text-align: center;
 	font-weight: 400;
@@ -109,8 +113,8 @@ header{
 }
 
 .today_img,.tomorrow_img{
-	width: 2rem;
-	height: 2rem;
+	width: .57rem;
+	height: .57rem;
 }
 .next_bottom{
 	margin-top: .5rem;
@@ -140,9 +144,9 @@ header{
 	justify-content: center;
 }
 
-.hours_img{
-	width: 2rem;
-    height: 2rem;
+.hours_img,.week_img{
+	width: .57rem;
+    height: .57rem;
 }
 
 .future{
